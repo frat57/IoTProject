@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/bakiye_ekrani"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:layout_width="339dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/login_title"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/bakiyem"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:autofillHints=""
+            android:text="@string/borcum"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/bakiye"
+            android:layout_width="153dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@+id/bakiyem"
+            android:autofillHints=""
+            android:text=""
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            tools:targetApi="o" />
+
+        <TextView
+        android:id="@+id/textView"
+        android:layout_below="@+id/bakiye"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/y_klemek_istedi_iniz_miktar_girin" />
+
+        <EditText
+            android:id="@+id/borc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="24sp"
+            android:inputType="numberDecimal"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/borc"
+            android:layout_marginTop="40dp"
+            android:background="#2196F3"
+            android:text="@string/bakiye_y_kle" />
+    </RelativeLayout>
+
+</RelativeLayout>

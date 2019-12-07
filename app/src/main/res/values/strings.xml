@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IoTProje</string>
+    <string name="bakiyem">Bakiyem=</string>
+    <string name="bakiye">Bakiye</string>
+    <string name="bakiye_ekrani">Bakiye Ekrani</string>
+    <string name="bakiye_sorgula">Bakiye Sorgula</string>
+    <string name="textview">TextView</string>
+    <string name="y_klemek_istedi_iniz_miktar_girin">Yüklemek istediğiniz miktarı girin:</string>
+    <string name="bakiye_y_kle">Bakiye Yükle</string>
+    <string name="borcum">Borcum=</string>
+    <string name="yenile">Yenile</string>
+</resources>
